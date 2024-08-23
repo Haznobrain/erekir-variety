@@ -17,6 +17,7 @@ ammoTypes:{
     pierceCap: 3
     buildingDamageMultiplier: 0.3
     colors: [465ab8ab, 66a6d2bb, 89e8b6cc, cafcbe, ffffff]
+    flareColor: 89e8b6
       }
    hydrogen: {
     type: ContinuousFlameBulletType
@@ -27,5 +28,6 @@ ammoTypes:{
     pierceCap: 5
     buildingDamageMultiplier: 0.3
     colors: [9eabf7ab, 9eabf7bb, 9eabf7cc, 9eabf7, ffffff]
+    flareColor: 9eabf7
       }
 }
