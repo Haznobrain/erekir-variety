@@ -29,9 +29,9 @@ ammoTypes: {
   beryllium: {
     type: BasicBulletType
     damage: 30
-    lifetime: 30
+    lifetime: 26
     speed: 8.5
-    rangeChange: -8.5
+    rangeChange: -32
     width: 16
     height: 16
     shrinkY: 0.3
@@ -58,7 +58,7 @@ ammoTypes: {
     intervalBullets: 3
     intervalRandomSpread: 12
     intervalBullet: {
-      createChance: 0.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
+      createChance: 0.3
       type: BasicBulletType
       damage: 8
       lifetime: 20
