@@ -1,0 +1,126 @@
+ammoTypes: {
+  thorium: {
+    type: ArtilleryBulletType
+    speed: 2.5
+    damage: 350
+    sprite: shell
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+          titanExplosion,
+          titanSmoke
+            ]
+        }
+    despawnEffect: none
+    knockback: 2
+    lifetime: 140
+    height: 19
+    width: 17
+    splashDamageRadius: 65
+    scaledSplashDamage: true
+    backColor: ea8878
+    hitColor: ea8878
+    trailColor: ea8878
+    frontColor: ffffff
+    ammoMultiplier: 1
+    hitSound: titanExplosion
+    status: blasted
+    trailLength: 32
+    trailWidth: 3.35
+    trailSinScl: 2.5
+    trailSinMag: 0.5
+    trailEffect: none
+    despawnShake: 7
+    shootEffect: shootTitan
+    smokeEffect: {
+      type: WrapEffect
+      effect: shootTitanSmoke
+      color; ea8878
+        }
+    trailInterp: slope
+    shrinkX: 0.2
+    shrinkY: 0.1
+    buildingDamageMultiplier: 0.3
+      }
+  oxide: {
+    type: ArtilleryBulletType
+    speed: 2.5
+    damage: 240
+    sprite: shell
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ExplosionEffect
+          smokeColor: e4ffd6aa
+          sparkColor: e4ffd6
+          waveColor: e4ffd6
+          smokes: 8
+          smokeSize: 6
+          sparkLen: 12
+          waveRad: 60
+          waveLife: 20
+          sparks: 7
+          smokeRad: 60
+          sparkRad: 60
+            }
+        {
+          type: ParticleEffect
+          particles: 10
+          sizeFrom: 10
+          sizeTo: 0
+          interp: pow5Out
+          sizeInterp: pow5In
+          colorFrom: ffffff
+          colorTo: e4ffd666
+          lightColor: e4ffd6
+          length: 60
+          lifetime: 60
+            }
+            ]
+        }
+    despawnEffect: none
+    knockback: 2
+    lifetime: 130
+    rangeChange: -25
+    height: 18
+    width: 15
+    splashDamageRadius: 60
+    scaledSplashDamage: true
+    backColor: e4ffd6
+    hitColor: e4ffd6
+    trailColor: e4ffd6
+    frontColor: ffffff
+    ammoMultiplier: 2
+    hitSound: titanExplosion
+    status: blasted
+    trailLength: 30
+    trailWidth: 3.35
+    trailSinScl: 2.5
+    trailSinMag: 0.5
+    trailEffect: none
+    despawnShake: 7
+    shootEffect: shootTitan
+    smokeEffect: {
+      type: WrapEffect
+      effect: shootTitanSmoke
+      color; e4ffd6
+        }
+    fragBullets: 5
+    fragBullet: {
+        type: ShrapnelBulletType
+        toColor: e4ffd6aa
+        fromColor: ffffff
+        createChance: 0.5
+        length: 40
+        width: 6
+        serrations: 0
+        despawnSound: shotgun
+        hitLarge: true
+          }
+    trailInterp: slope
+    shrinkX: 0.2
+    shrinkY: 0.1
+    buildingDamageMultiplier: 0.3
+      }
+  }
