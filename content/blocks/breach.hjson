@@ -84,7 +84,8 @@ ammoTypes: {
           damage: 10
           pierce: true
           pierceCap: 3
-          speed: 1
+          speed: 3
+          lifetime: 15
           pierceBuilding: true
           width: 9
           height: 17
@@ -97,6 +98,8 @@ ammoTypes: {
           hitEffect: hitBulletColor
           despawnEffect: hitBulletColor
           buildingDamageMultiplier: 0.3
+          trailLength: 9
+          trailWidth: 2
             }
       }
 }
