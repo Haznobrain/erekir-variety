@@ -1,0 +1,31 @@
+ammoTypes:{
+  ozone: {
+    type: ContinuousFlameBulletType
+    damage: 60
+    length: 130
+    knockback: 1
+    pierceCap: 2
+    buildingDamageMultiplier: 0.3
+    colors: [eb7abeab, e189f5bb, 907ef7cc, 91a4ff, ffffff]
+      }
+  cyanogen: {
+    type: ContinuousFlameBulletType
+    damage: 130
+    length: 200
+    rangeChange: 70
+    knockback: 2
+    pierceCap: 3
+    buildingDamageMultiplier: 0.3
+    colors: [465ab8ab, 66a6d2bb, 89e8b6cc, cafcbe, ffffff]
+      }
+   hydrogen: {
+    type: ContinuousFlameBulletType
+    damage: 30
+    length: 160
+    rangeChange: 30
+    knockback: 0.8
+    pierceCap: 5
+    buildingDamageMultiplier: 0.3
+    colors: [9eabf7ab, 9eabf7bb, 9eabf7cc, 9eabf7, ffffff]
+      }
+}
