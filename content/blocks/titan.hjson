@@ -119,6 +119,7 @@ ammoTypes: {
         serrations: 0
         despawnSound: shotgun
         hitLarge: true
+        damage: 14
           }
     trailInterp: slope
     shrinkX: 0.2
