@@ -58,6 +58,7 @@ ammoTypes: {
     intervalBullets: 3
     intervalRandomSpread: 12
     intervalBullet: {
+      createChance: 0.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
       type: BasicBulletType
       damage: 8
       lifetime: 20
