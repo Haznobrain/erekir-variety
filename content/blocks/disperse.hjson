@@ -60,7 +60,7 @@ ammoTypes: {
     intervalBullet: {
       createChance: 0.3
       type: BasicBulletType
-      damage: 8
+      damage: 4
       lifetime: 20
       speed: 4.5
       width: 8
