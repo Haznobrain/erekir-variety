@@ -28,7 +28,7 @@ ammoTypes: {
       }
   beryllium: {
     type: BasicBulletType
-    damage: 30
+    damage: 20
     lifetime: 26
     speed: 8.5
     rangeChange: -32
@@ -77,8 +77,6 @@ ammoTypes: {
       trailWidth: 1.1
       despawnEffect: hitBulletColor
       hitEffect: hitBulletColor
-      pierce: true
-      pierceCap: 3
       collidesGround: false
       collidesTiles: false
         }
