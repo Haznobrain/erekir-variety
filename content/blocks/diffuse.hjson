@@ -46,6 +46,6 @@ ammoTypes: {
     lightning: 3
     lightningDamage: 5
     lightningColor: ea8878
-    lightningLength: 2
+    lightningLength: 4
       }
 }
