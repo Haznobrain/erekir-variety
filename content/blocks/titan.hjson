@@ -34,7 +34,7 @@ ammoTypes: {
     shootEffect: shootTitan
     smokeEffect: {
       type: WrapEffect
-      effect: shootTitanSmoke
+      effect: shootSmokeTitan
       color: ea8878
         }
     trailInterp: slope
@@ -103,7 +103,7 @@ ammoTypes: {
     shootEffect: shootTitan
     smokeEffect: {
       type: WrapEffect
-      effect: shootTitanSmoke
+      effect: shootSmokeTitan
       color: e4ffd6
         }
     fragBullets: 5
