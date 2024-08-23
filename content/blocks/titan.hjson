@@ -104,7 +104,7 @@ ammoTypes: {
     smokeEffect: {
       type: WrapEffect
       effect: shootTitanSmoke
-      color; e4ffd6
+      color: e4ffd6
         }
     fragBullets: 5
     fragBullet: {
