@@ -17,6 +17,7 @@ ammoTypes: {
     height: 19
     width: 17
     splashDamageRadius: 65
+    splashDamage: 350
     scaledSplashDamage: true
     backColor: ea8878
     hitColor: ea8878
@@ -87,6 +88,7 @@ ammoTypes: {
     width: 15
     splashDamageRadius: 60
     scaledSplashDamage: true
+    splashDamage: 240
     backColor: e4ffd6
     hitColor: e4ffd6
     trailColor: e4ffd6
